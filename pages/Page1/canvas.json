@@ -1,0 +1,183 @@
+{
+  "unpublishedPage": {
+    "name": "Page1",
+    "slug": "page1",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 4896,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 1320,
+          "containerStyle": "none",
+          "snapRows": 125,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 57,
+          "minHeight": 1292,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "widgetName": "Table1",
+              "defaultPageSize": 0,
+              "columnOrder": [
+                "id",
+                "name",
+                "age",
+                "address"
+              ],
+              "isVisibleDownload": false,
+              "dynamicPropertyPathList": [],
+              "displayName": "Table",
+              "iconSVG": "/static/media/icon.db8a9cbd.svg",
+              "topRow": 15,
+              "bottomRow": 43,
+              "isSortable": true,
+              "parentRowSpace": 10,
+              "type": "TABLE_WIDGET",
+              "defaultSelectedRow": "0",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 20.0625,
+              "dynamicTriggerPathList": [],
+              "dynamicBindingPathList": [
+                {
+                  "key": "primaryColumns.id.computedValue"
+                },
+                {
+                  "key": "primaryColumns.name.computedValue"
+                },
+                {
+                  "key": "primaryColumns.age.computedValue"
+                },
+                {
+                  "key": "primaryColumns.address.computedValue"
+                }
+              ],
+              "leftColumn": 3,
+              "primaryColumns": {
+                "id": {
+                  "index": 3,
+                  "width": 150,
+                  "id": "id",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "PARAGRAPH",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "ID",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.id))}}"
+                },
+                "name": {
+                  "index": 3,
+                  "width": 150,
+                  "id": "name",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "PARAGRAPH",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "名字",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.name))}}"
+                },
+                "age": {
+                  "index": 3,
+                  "width": 150,
+                  "id": "age",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "PARAGRAPH",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "年龄",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.age))}}"
+                },
+                "address": {
+                  "index": 3,
+                  "width": 150,
+                  "id": "address",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "PARAGRAPH",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "地址",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.address))}}"
+                }
+              },
+              "delimiter": ",",
+              "key": "5r4ga918i9",
+              "derivedColumns": {},
+              "rightColumn": 37,
+              "textSize": "PARAGRAPH",
+              "widgetId": "v3k6kh77ql",
+              "isVisibleFilters": false,
+              "tableData": "[\n  {\n    \"id\": 1,\n    \"name\": \"xiaowu\",\n    \"age\": 24,\n    \"address\": \"aaa\"\n  },\n  {\n    \"id\": 2,\n    \"name\": \"xiaomei\",\n    \"age\": 22,\n    \"address\": \"bbb\"\n  },\n  {\n    \"id\": 3,\n    \"name\": \"xiaohu\",\n    \"age\": 24,\n    \"address\": \"ccc\"\n  }\n]",
+              "isVisible": true,
+              "label": "Data",
+              "searchKey": "",
+              "enableClientSideSearch": true,
+              "version": 3,
+              "totalRecordsCount": 0,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "horizontalAlignment": "LEFT",
+              "isVisibleSearch": false,
+              "isVisiblePagination": false,
+              "verticalAlignment": "CENTER",
+              "columnSizeMap": {
+                "task": 245,
+                "step": 62,
+                "status": 75
+              }
+            }
+          ]
+        },
+        "layoutOnLoadActions": [],
+        "widgetNames": [
+          "MainContainer",
+          "Table1"
+        ],
+        "validOnPageLoadActions": true,
+        "id": "Page1",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": []
+  },
+  "deleted": false,
+  "policies": [],
+  "gitSyncId": "62767441f71fe61d9a6a9f0d_62767441f71fe61d9a6a9f0f"
+}
